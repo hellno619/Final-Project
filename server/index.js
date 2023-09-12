@@ -17,18 +17,3 @@ app.listen(PORT , ()=>{
 });
 app.use('/api/user' , userRoute)
 app.use("/api/residency" , residencyRoute)
-const express = require('express');
-const cors = require('cors'); // Import the cors middleware
-
-
-// Use the cors middleware to enable CORS
-app.use(cors());
-
-// Your API routes and other middleware
-app.get('/api/user/allFav', (req, res) => {
-  // Your API logic here
-});
-
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});
