@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   domain="dev-2bcux5dm7c2nbx62.us.auth0.com"
   clientId="rqTdDIhmTAsKbwm2jLxQnbegaJh7cmTy"
   authorizationParams={{
-      redirect_uri: "http://localhost:5173"
+      redirect_uri: "https://final-project-woad-omega.vercel.app/"
      }}
      audience="http://localhost:8000"
      scope="openid profile email"
