@@ -26,8 +26,8 @@ const Value = () => {
           <span className="orangeText">Our Value</span>
           <span className="primaryText">Value We Give to You</span>
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you. <br/>
-            We beleive a good blace to live can make your life better
+           We are always ready to provide you with the best services. <br/>
+           We believe that a good place to live can enhance your quality of life.
           </span>
 
           <Accordion
