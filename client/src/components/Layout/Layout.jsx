@@ -10,6 +10,7 @@ import useFavourites from "../../hooks/useFav";
 
 const Layout = () => {
   useFavourites()
+    useBookings()
   const { isAuthenticated, user, getAccessTokenWithPopup } = useAuth0();
   const { setUserDetails } = useContext(UserDetailContext);
 
