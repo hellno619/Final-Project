@@ -27,10 +27,10 @@ const Hero = () => {
           </div>
           <div className="flexColStart hero-des">
             <span className="secondaryText">
-              Find a variety of properties that suit you very easilty
+              Easily find suitable properties without any hassle
             </span>
             <span className="secondaryText">
-              Forget all difficulties in finding a residence for you
+              Put aside all the difficulties in your quest for a new home.
             </span>
           </div>
 
@@ -40,7 +40,7 @@ const Hero = () => {
                 <CountUp start={6800} end={8000} duration={4} />
                 <span>+</span>
               </span>
-              <span className="secondaryText">Premium Products</span>
+              <span className="secondaryText">Elite Products</span>
             </div>
             <div className="flexColCenter stat">
               <span>
@@ -54,7 +54,7 @@ const Hero = () => {
                 <CountUp end={36} />
                 <span>+</span>
               </span>
-              <span className="secondaryText">Award</span>
+              <span className="secondaryText">Awards</span>
             </div>
           </div>
         </div>
