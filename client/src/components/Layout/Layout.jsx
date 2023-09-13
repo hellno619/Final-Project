@@ -7,7 +7,7 @@ import UserDetailContext from "../../context/UserDetailContext";
 import { createUser } from "../../utils/api";
 import { useMutation } from "react-query";
 import useFavourites from "../../hooks/useFav";
-
+import useBookings from "../../hooks/useBookings";
 const Layout = () => {
   useFavourites()
     useBookings()
