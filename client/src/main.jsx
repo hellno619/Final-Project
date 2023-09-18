@@ -8,8 +8,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
   <Auth0Provider
-  domain="dev-2bcux5dm7c2nbx62.us.auth0.com"
-  clientId="rqTdDIhmTAsKbwm2jLxQnbegaJh7cmTy"
+  domain="dev-pvsrardqsvuuufr5.us.auth0.com"
+  clientId="AUVSWUsA9nrL9gAC1AwuGorNr2m32vL3"
   authorizationParams={{
       redirect_uri: "https://final-project-woad-omega.vercel.app/"
      }}
